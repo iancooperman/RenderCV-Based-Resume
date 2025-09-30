@@ -1,60 +1,41 @@
 cv:
   name: Ian Cooperman
-  location: Location
-  email: john.doe@example.com
-  phone: +1-609-999-9995
-  website:
+  location: Los Angeles, CA, USA
+  email: ian.pl.cooperman@gmail.com
+  website: https://iancooperman.com
   social_networks:
     - network: LinkedIn
-      username: john.doe
+      username: ian.pl.cooperman
     - network: GitHub
-      username: john.doe
+      username: ian.cooperman
   sections:
-    welcome_to_RenderCV!:
-      - '[RenderCV](https://rendercv.com) is a Typst-based CV framework designed for academics and engineers, with Markdown syntax support.'
-      - Each section title is arbitrary. Each section contains a list of entries, and there are 7 different entry types to choose from.
-    education:
-      - institution: Stanford University
-        area: Computer Science
-        degree: PhD
-        date:
-        start_date: 2023-09
-        end_date: present
-        location: Stanford, CA, USA
-        summary:
-        highlights:
-          - Working on the optimization of autonomous vehicles in urban environments
-      - institution: Boğaziçi University
-        area: Computer Engineering
-        degree: BS
-        date:
-        start_date: 2018-09
-        end_date: 2022-06
-        location: Istanbul, Türkiye
-        summary:
-        highlights:
-          - 'GPA: 3.9/4.0, ranked 1st out of 100 students'
-          - 'Awards: Best Senior Project, High Honor'
+    career_summary:
+      - IT Support Technician with experience managing large device fleets and providing front-line support in high-volume environments. Known for troubleshooting across hardware, software, and networks while creating small automations to streamline workflows and improve efficiency.
     experience:
-      - company: Company C
-        position: Summer Intern
+      - company: Los Angeles Unified School District
+        position: IT Support Technician
         date:
-        start_date: 2024-06
-        end_date: 2024-09
-        location: Livingston, LA, USA
+        start_date: 2021-11
+        end_date: present
+        location: Los Angeles, CA, USA
         summary:
         highlights:
-          - Developed deep learning models for the detection of gravitational waves in LIGO data
-          - Published [3 peer-reviewed research papers](https://example.com) about the project and results
-      - company: Company B
-        position: Summer Intern
+          - Provided front-line support for a school site of ~1,500 students and 100+ staff, resolving hardware, software, and network issues.
+          - Managed and tracked a fleet of 1,000+ Chromebooks, including imaging, repairs, returns, and disposals.
+          - Configured and supported Windows, macOS, and mobile devices for staff and classroom use.
+          - Developed Google Apps Script tools that automated inventory tracking and loaner device workflows, cutting reporting time by 50%.
+          - Escalated complex issues to district-level IT teams and ensured timely resolution.
+      - company: Kite
+        position: Technical Writer
         date:
-        start_date: 2023-06
-        end_date: 2023-09
-        location: Ankara, Türkiye
+        start_date: 2019-07
+        end_date: 2019-10
+        location: Remote
         summary:
         highlights:
-          - Optimized the production line by 15% by implementing a new scheduling algorithm
+          - Authored Python tutorials for the Kite Answers knowledge base, covering foundational programming tasks such as NumPy array manipulation and list operations.
+          - Maintained and updated content via GitHub, ensuring accuracy, consistency, and instructional quality.
+          - Peer-reviewed contributor submissions, enhancing clarity, correctness, and educational value for beginner to intermediate coders.
       - company: Company A
         position: Summer Intern
         date:
@@ -64,52 +45,28 @@ cv:
         summary:
         highlights:
           - Designed an inventory management web application for a warehouse
-    projects:
-      - name: '[Example Project](https://example.com)'
+    education:
+      - institution: University of California, Irvine
+        area: Computer Science
+        degree: B.S.
         date:
-        start_date: 2024-05
-        end_date: present
-        location:
-        summary: A web application for writing essays
-        highlights:
-          - Launched an [iOS app](https://example.com) in 09/2024 that currently has 10k+ monthly active users
-          - The app is made open-source (3,000+ stars [on GitHub](https://github.com))
-      - name: '[Teaching on Udemy](https://example.com)'
-        date: Fall 2023
-        start_date:
-        end_date:
-        location:
+        start_date: 2017-09
+        end_date: 2021-06
+        location: Irvine, CA, USA
         summary:
         highlights:
           - Instructed the "Statics" course on Udemy (60,000+ students, 200,000+ hours watched)
     skills:
-      - label: Programming
-        details: Proficient with Python, C++, and Git; good understanding of Web, app development, and DevOps
-      - label: Mathematics
-        details: Good understanding of differential equations, calculus, and linear algebra
-      - label: Languages
-        details: 'English (fluent, TOEFL: 118/120), Turkish (native)'
-    publications:
-      - title: 3D Finite Element Analysis of No-Insulation Coils
-        authors:
-          - Frodo Baggins
-          - '***John Doe***'
-          - Samwise Gamgee
-        doi: 10.1109/TASC.2023.3340648
-        url:
-        journal:
-        date: 2004-01
-    extracurricular_activities:
-      - bullet: 'There are 7 unique entry types in RenderCV: *BulletEntry*, *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*, *PublicationEntry*, and *OneLineEntry*.'
-      - bullet: Each entry type has a different structure and layout. This document demonstrates all of them.
-    numbered_entries:
-      - number: This is a numbered entry.
-      - number: This is another numbered entry.
-      - number: This is the third numbered entry.
-    reversed_numbered_entries:
-      - reversed_number: This is a reversed numbered entry.
-      - reversed_number: This is another reversed numbered entry.
-      - reversed_number: This is the third reversed numbered entry.
+      - label: Technical Support
+        details: Windows, macOS, ChromeOS, mobile devices, printers, peripherals
+      - label: Tools
+        details: ServiceNow, Git/GitHub, Docker, AWS
+      - label: Networking
+        details: Basic TCP/IP troubleshooting, Wi-Fi setup/support
+      - label: Scripting/Automation
+        details: Python, Google Apps Script (inventory + workflow automation)
+      - label: Certifications
+        details: AWS Certified Developer – Associate
 design:
   theme: classic
   page:
