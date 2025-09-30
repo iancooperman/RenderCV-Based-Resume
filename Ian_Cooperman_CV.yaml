@@ -36,15 +36,11 @@ cv:
           - Authored Python tutorials for the Kite Answers knowledge base, covering foundational programming tasks such as NumPy array manipulation and list operations.
           - Maintained and updated content via GitHub, ensuring accuracy, consistency, and instructional quality.
           - Peer-reviewed contributor submissions, enhancing clarity, correctness, and educational value for beginner to intermediate coders.
-      - company: Company A
-        position: Summer Intern
-        date:
-        start_date: 2022-06
-        end_date: 2022-09
-        location: Istanbul, Türkiye
-        summary:
-        highlights:
-          - Designed an inventory management web application for a warehouse
+    relevant_projects:
+      - label: Google Apps Script Automation
+        details: Built custom tools to track Chromebook loans and site-wide inventory, cutting manual tracking work by 50%
+      - label: Password Generator
+        details: Developed a utility tailored to LAUSD’s strict password rules, reducing reset failures and frustration for staff.
     education:
       - institution: University of California, Irvine
         area: Computer Science
