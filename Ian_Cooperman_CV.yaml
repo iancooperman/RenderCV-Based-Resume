@@ -38,7 +38,7 @@ cv:
           - Peer-reviewed contributor submissions, enhancing clarity, correctness, and educational value for beginner to intermediate coders.
     relevant_projects:
       - label: Google Apps Script Automation
-        details: Built custom tools to track Chromebook loans and site-wide inventory, cutting manual tracking work by 50%
+        details: "Built custom tools to track Chromebook loans and site-wide inventory, cutting manual tracking work in half."
       - label: Password Generator
         details: Developed a utility tailored to LAUSD’s strict password rules, reducing reset failures and frustration for staff.
     education:
@@ -51,7 +51,7 @@ cv:
         location: Irvine, CA, USA
         summary:
         highlights:
-          - Instructed the "Statics" course on Udemy (60,000+ students, 200,000+ hours watched)
+          - "GPA: 3.85"
     skills:
       - label: Technical Support
         details: Windows, macOS, ChromeOS, mobile devices, printers, peripherals
@@ -64,7 +64,7 @@ cv:
       - label: Certifications
         details: AWS Certified Developer – Associate
 design:
-  theme: classic
+  theme: moderncv
   page:
     size: us-letter
     top_margin: 2cm
