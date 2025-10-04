@@ -49,9 +49,8 @@ cv:
         start_date: 2017-09
         end_date: 2021-06
         location: Irvine, CA, USA
-        summary:
-        highlights:
-          - "GPA: 3.85"
+        summary: GPA: 3.85
+        # highlights:
     skills:
       - label: Technical Support
         details: Windows, macOS, ChromeOS, mobile devices, printers, peripherals
